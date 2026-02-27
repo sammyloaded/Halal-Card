@@ -294,3 +294,53 @@ p{
 }
 
 /* Card Features  */
+.card-feat{
+    background-color: #242424;
+}
+
+.cards2{
+    padding-top: 80px;
+}
+
+.cards2 p{
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 12px;
+    
+}
+
+.cards2 h1{
+    color: white;
+}
+
+.cardfeat-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px 100px;
+    gap: 30px;
+}
+
+.cardfeat-card{
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 12px;
+    
+    /* max-width: 400px;
+   */
+}
+
+.cardfeat-card h4{
+    padding-top: 28px;
+}
+
+.cardfeat-card p{
+    padding-top: 12px;
+}
+
+.card-inner{
+    width: 100%;
+}
+
+
