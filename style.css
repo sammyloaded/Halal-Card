@@ -449,12 +449,24 @@ opacity: 0.5;
     font-size: 18px;
 }
 
-.footer-card p{
-    padding-top: 10px;
-    font-size: 14px;
+.footer-card a{
+   padding: 10px;
+    font-size: 15px;
 color: #FFFFFFCC;
 opacity: 0.8;
+text-decoration: none;
+display: flex;
 }
+
+.footer-card a:hover{
+    opacity: 0.5;
+}
+
+/* .footer-card a{
+    text-decoration: none;
+    padding-top: 14px;
+    color: #FFFFFFCC;
+} */
 
 .apps{
     display: flex;
