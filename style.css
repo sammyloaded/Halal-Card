@@ -534,6 +534,10 @@ opacity: 0.8;
 
     }
 
+    .feature-text p{
+        font-size: 12px;
+    }
+
     .right{
         font-size: 12px;
         text-align: right;
