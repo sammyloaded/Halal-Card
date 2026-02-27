@@ -76,8 +76,8 @@ p{
 }
 
 .nav-btn:hover{
-    background-color: white;
-    color: black
+    background-color: #FF4F19;
+    color: white;
 }
 
 /* HERO Section  */
@@ -186,14 +186,20 @@ p{
     padding: 80px 100px;
      display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    border-radius: 12px;
+    
 }
 
 .about-card{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    /* border: 1px solid #EDEDED; */
     justify-content: center;
 }
+
+
 
 .about-card img {
   width: 56px;
@@ -281,6 +287,12 @@ p{
 
 .feature-btn {
   padding: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-btn:hover{
+     transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .feature-btn a {
@@ -331,9 +343,15 @@ p{
     padding: 50px 50px;
     background-color: white;
     border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
     /* max-width: 400px;
    */
+}
+
+.cardfeat-card:hover{
+    transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .cardfeat-card h4{
@@ -365,6 +383,12 @@ p{
     background-color: #FFFEF0;
     padding: 20px;
     border-radius: 7.2px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testi-card:hover{
+    transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .testi1{
@@ -451,6 +475,86 @@ opacity: 0.8;
     justify-content: center;
     padding-top: 58px;
     gap: 30px;
+}
+
+/* Responsiveness  */
+@media (max-width: 768px) {
+    .nav-links{
+        display: none;
+    }
+
+    .header{
+        padding: 15px;
+    }
+
+    .hero{
+        padding: 20px;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero-h1{
+        font-size: 50px;
+    }
+
+    .about{
+        padding: 20px;
+    }
+
+    .about-head p{
+        font-size: 10px;
+    }
+
+    .about-grid{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .about-head h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .feature-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .features{
+        padding: 10px;
+    }
+
+    .cardfeat-grid{
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+
+    .feature-row span{
+        font-size: 12px;
+
+    }
+
+    .right{
+        font-size: 12px;
+        text-align: right;
+
+    }
+
+    .testimonial{
+        padding: 20px;
+    }
+
+    .testi-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer{
+        padding: 40px;
+    }
 }
 
 
