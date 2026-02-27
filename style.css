@@ -293,6 +293,11 @@ p{
   font-weight: 500;
 }
 
+.feature-btn a:hover{
+    background-color: black;
+    color: white;
+}
+
 /* Card Features  */
 .card-feat{
     background-color: #242424;
@@ -342,5 +347,111 @@ p{
 .card-inner{
     width: 100%;
 }
+
+/* Testimonials Section  */
+.testimonial{
+    background-color: #F7F7F7;
+    padding: 80px 100px;
+}
+
+.testi-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding-top: 56px;
+}
+
+.testi-card{
+    background-color: #FFFEF0;
+    padding: 20px;
+    border-radius: 7.2px;
+}
+
+.testi1{
+    font-size: 14.65px;
+    color: #004449;
+}
+
+.author{
+    font-size: 14.65px;
+    color: #004449;
+    padding-top: 17px;
+}
+
+.testi2{
+    font-size: 11.4px;
+     color: #004449;
+    padding-top: 17px;
+
+}
+
+.testi12{
+    font-size: 16.19px;
+    color: #004449;
+}
+
+.testi13{
+    font-size: 18px;
+    color: #004449;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 32px;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.slide img:hover{
+opacity: 0.5;
+}
+
+/* Footer Section  */
+.footer{
+    background-color: #242424;
+    padding: 80px 100px;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px
+}
+
+.footer-card h3{
+    color: white;
+    font-size: 18px;
+}
+
+.footer-card p{
+    padding-top: 10px;
+    font-size: 14px;
+color: #FFFFFFCC;
+opacity: 0.8;
+}
+
+.apps{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.footer-card h5 {
+    font-size: 10px;
+    padding-top: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    gap: 30px;
+}
+
 
 
