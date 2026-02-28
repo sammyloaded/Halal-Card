@@ -194,7 +194,7 @@ p{
 .about-card{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     /* border: 1px solid #EDEDED; */
     justify-content: center;
 }
@@ -242,7 +242,7 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -449,6 +449,11 @@ opacity: 0.5;
     font-size: 18px;
 }
 
+.footer-card h2{
+    color: white;
+    font-size: 18px;
+}
+
 .footer-card a{
    padding: 10px;
     font-size: 15px;
@@ -526,6 +531,7 @@ display: flex;
     .about-head h1{
         font-size: 30px;
         text-align: center;
+        padding: 20px;
     }
 
     .feature-grid{
@@ -570,6 +576,18 @@ display: flex;
 
     .footer{
         padding: 40px;
+    }
+
+    .footer-card h5{
+        text-align: center;
+    }
+
+    .footer-card h2{
+        text-align: center;
+    }
+
+    .apps{
+        justify-content: center;
     }
 }
 
