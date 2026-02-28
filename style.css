@@ -215,7 +215,7 @@ p{
 .about-card p{
     text-align: center;
     color: #1E1D1DC7;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 /* Features Section  */
@@ -360,6 +360,8 @@ p{
 
 .cardfeat-card p{
     padding-top: 12px;
+    color: #1E1D1DC7;
+    font-size: 13px;
 }
 
 .card-inner{
