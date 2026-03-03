@@ -11,6 +11,7 @@ body {
   color: #111;
 }
 
+
 p{
      font-family: 'DM Sans', sans-serif;
 }
@@ -220,7 +221,8 @@ p{
 
 /* Features Section  */
 .features{
-    padding: 80px 100px;
+    padding: 80px 0px;
+    background-color: #F9F9F9;
 }
 
 .feature-grid{
@@ -265,7 +267,7 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 40px;
+  padding: 24px 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
